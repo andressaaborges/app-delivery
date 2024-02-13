@@ -19,7 +19,7 @@ export default function Home() {
                 keyExtractor={(item) => item}
                 renderItem={({ item }) => (<CategoryButton title={item} isSelected={item === category} onPress={() => handleCategorySelect(item)} />)}
                 horizontal
-                className="mah-h-10 mt-5"
+                className="max-h-10 mt-5"
                 showsHorizontalScrollIndicator={false}
                 contentContainerStyle={{ gap: 12, paddingHorizontal: 20 }}
             />
